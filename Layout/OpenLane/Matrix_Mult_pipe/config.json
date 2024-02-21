@@ -1,0 +1,15 @@
+{
+    "DESIGN_NAME": "matrix_multiply",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PORT": "ap_clk",
+    "CLOCK_PERIOD": 20.0,
+    "DESIGN_IS_CORE": false,
+    "FP_SIZING":"absolute",
+    "DIE_AREA":"0 0 220 220",
+    "PL_TARGET_DENSITY":0.70,
+        "SYNTH_STRATEGY":"AREA 1",
+	"VDD_NETS": "VPWR",
+	"GND_NETS":"VGND",
+	"SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
+	"RT_MAX_LAYER": "met4"
+}
